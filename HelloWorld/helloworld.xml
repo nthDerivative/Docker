@@ -13,7 +13,7 @@
   <Support></Support>
   <Registry></Registry>
   <GitHub>https://github.com/nthDerivative/PythonDocker/tree/master/helloworld</GitHub>
-  <Repository>nthderivaitve/helloworld</Repository>
+  <Repository>nthderivaitve/docker</Repository>
   <Project>https://hirosky.com</Project>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
