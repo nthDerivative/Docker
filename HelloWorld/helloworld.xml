@@ -3,7 +3,7 @@
   <TemplateURL>https://raw.githubusercontent.com/nthDerivative/PythonDocker/master/HelloWorld/helloworld.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
-  <Name>HelloWorld</Name>
+  <Name>helloworld</Name>
   <Description>
     Test
   </Description>
@@ -12,7 +12,7 @@
   </Overview>
   <Support></Support>
   <Registry></Registry>
-  <GitHub>https://github.com/nthDerivative/PythonDocker/tree/master/HelloWorld</GitHub>
+  <GitHub>https://github.com/nthDerivative/PythonDocker/tree/master/helloworld</GitHub>
   <Repository>nthderivaitve/helloworld</Repository>
   <Project>https://hirosky.com</Project>
   <BindTime>true</BindTime>
