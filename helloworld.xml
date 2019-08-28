@@ -11,7 +11,7 @@
     Test
   </Overview>
   <Support></Support>
-  <Registry></Registry>
+  <Registry>https://hub.docker.com/r/nthderivative/docker</Registry>
   <GitHub>https://github.com/nthderivative/docker/tree/master/</GitHub>
   <Repository>nthderivaitve/docker</Repository>
   <Project>https://hirosky.com</Project>
