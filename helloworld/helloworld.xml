@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/nthDerivative/Docker/master/helloworld/helloworld.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/nthDerivative/docker/master/helloworld/helloworld.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
   <Name>helloworld</Name>
@@ -12,7 +12,7 @@
   </Overview>
   <Support></Support>
   <Registry></Registry>
-  <GitHub>https://github.com/nthDerivative/PythonDocker/tree/master/helloworld</GitHub>
+  <GitHub>https://github.com/nthDerivative/docker/tree/master/helloworld</GitHub>
   <Repository>nthderivaitve/docker</Repository>
   <Project>https://hirosky.com</Project>
   <BindTime>true</BindTime>
