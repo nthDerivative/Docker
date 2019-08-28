@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/nthDerivative/PythonDocker/master/HelloWorld/helloworld.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/nthDerivative/Docker/master/helloworld/helloworld.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
   <Name>helloworld</Name>
