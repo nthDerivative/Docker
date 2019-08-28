@@ -13,7 +13,7 @@
   <Support></Support>
   <Registry>https://hub.docker.com/r/nthderivative/docker</Registry>
   <GitHub>https://github.com/nthderivative/docker/tree/master/</GitHub>
-  <Repository>nthderivaitve/docker</Repository>
+  <Repository>nthderivative/docker</Repository>
   <Project>https://hirosky.com</Project>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
