@@ -3,7 +3,7 @@
   <TemplateURL>https://raw.githubusercontent.com/nthderivative/docker/master/appdefs.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
-  <Name>Brian's Resume</Name>
+  <Name>resume</Name>
   <Description>
     My interactive resume
   </Description>
