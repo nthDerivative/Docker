@@ -1,0 +1,26 @@
+{
+  "profiles": [
+    {
+      "name": "Project 1",
+      "discription": "Project 1",
+      "github": "https://twitter.com/",
+      "imgSrc": "project1.jpg",
+      "id": "proj1"
+    },
+
+    {
+      "name": "Project 2",
+      "discription": "Project 2",
+      "github": "https://twitter.com/",
+      "imgSrc": "project2.jpg",
+      "id": "proj2"
+    },
+
+    {
+      "name": "Project 3",
+      "discription": "Project 3",
+      "github": "https://twitter.com/",
+      "imgSrc": "project3.jpg",
+      "id": "proj3"
+    }
+}

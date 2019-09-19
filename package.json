@@ -1,13 +1,17 @@
 {
-  "name": "docker_web_app",
+  "name": "brian-hiroskys-resume",
   "version": "1.0.0",
-  "description": "Node.js on Docker",
-  "author": "First Last <first.last@example.com>",
+  "description": "Interactive Resume built on node.js",
+  "author": "Brian Hirosky <brian@hirosky.com>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }
