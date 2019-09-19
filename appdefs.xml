@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/nthderivative/docker/master/helloworld.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/nthderivative/docker/master/appdefs.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
-  <Name>helloworld</Name>
+  <Name>Brian's Resume</Name>
   <Description>
-    Test
+    My interactive resume
   </Description>
   <Overview>
-    Test
+    My interactive resume
   </Overview>
   <Support></Support>
   <Registry>https://hub.docker.com/r/nthderivative/docker</Registry>
@@ -21,8 +21,13 @@
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>5000</HostPort>
-        <ContainerPort>5000</ContainerPort>
+        <HostPort>8080</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>443</HostPort>
+        <ContainerPort>443</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
