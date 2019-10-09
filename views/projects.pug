@@ -1,0 +1,13 @@
+extends default
+
+block content
+    div.projectcontainer
+        each project in projectslist
+            div.project
+                div.projectittle
+                    | - #{project.title} -
+                div.projectsummary
+                    | #{project.summary}
+                a(href=`/projectdetails?id=${project.id}`)
+                    div.viewprojectdetails
+                        | Project Details

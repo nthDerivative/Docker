@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\json",
+    "\\public",
+    "\\public\\css",
+    "\\public\\images",
+    "\\views"
   ],
-  "SelectedNode": "\\Dockerfile",
+  "SelectedNode": "\\views\\projects.pug",
   "PreviewInSolutionExplorer": false
 }

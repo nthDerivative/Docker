@@ -53,8 +53,8 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user</HostDir>
-      <ContainerDir>/media</ContainerDir>
+      <HostDir>/mnt/user/Documents/Resume/</HostDir>
+      <ContainerDir>/usr/src/app/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>

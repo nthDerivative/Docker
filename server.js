@@ -1,33 +1,69 @@
-'use strict';
-
-const express = require('express');
-const people = require("./projects.json");
-
+﻿const express = require("express");
+const projectdata = require("./json/projects.json");
+const jobdata = require("./json/experience.json");
+const hardskills = require("./json/hardskills.json"); 
 const app = express();
 
 app.set("view engine", "pug");
 
-// Constants
-const PORT = 8080;
-const HOST = '0.0.0.0';
-
-// App
+// serve static files from the `public` folder
 app.use(express.static(__dirname + "/public"));
 
 app.get("/", (req, res) => {
     res.render("index", {
-        title: "Brian Hirosky's Resume",
-        projects: projects.profiles
+        title: "About me",
+        name: "Brian Hirosky",
+        description: "Software Developer, Systems Administrator, IT Solutions Provider",
+        projectslist: projectdata.profiles,
+        languagelist: hardskills.languages,
+        softwarelist: hardskills.software
     });
 });
 
-app.get("/profile", (req, res) => {
-    const project = project.profiles.find(p => p.id === req.query.id);
-    res.render("profile", {
-        title: `About ${project.name}`,
+app.get("/hardskills", (req, res) => {
+    const languageprogress = languagelist.languages.find(p => p.id === req.query.id);
+    res.render("hardskills", {
+        title: `${languageprogress.name}`,
+        languageprogress
+    });
+    const softwareeprogress = softwarelist.software.find(p => p.id === req.query.id);
+    res.render("hardskills", {
+        title: `${softwareeprogress.name}`,
+        softwareeprogress
+    });
+});
+
+app.get("/timeline", (req, res) => {
+    const year = jobdata.profiles.find(p => p.id === req.query.id);
+    const languages = hardskills.languages.find(p => p.id === req.query.id);
+    res.render("timeline", {
+        jobexperience: jobdata.profiles,
+        languagelist: hardskills.languages,
+        softwarelist: hardskills.software,
+        title: `My History`,
+        languages,
+        year,
+    });
+});
+
+app.get("/projects", (req, res) => {
+    const project = projectdata.profiles.find(p => p.id === req.query.id);
+    res.render("projects", {
+        title: "My Projects",
+        projectslist: projectdata.profiles,
         project
     });
 });
 
-app.listen(PORT, HOST);
-console.log(`Running on http://${HOST}:${PORT}`);
+app.get("/projectdetails", (req, res) => {
+    const project = projectdata.profiles.find(p => p.id === req.query.id);
+    res.render("projectdetails", {
+        title: `About ${project.title}`,
+        projectslist: projectdata.profiles,
+        project
+    });
+});
+
+const server = app.listen(8080, () => {
+    console.log(`Express running → PORT ${server.address().port}`);
+});

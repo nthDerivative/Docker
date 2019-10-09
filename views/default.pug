@@ -1,12 +1,35 @@
-doctype html
+﻿doctype html
 html
   head
     title #{title}
     link(rel='stylesheet', href='/css/style.css')
+    link(href='/css/navbar.css', rel='stylesheet')
     meta(name="viewport" content="width=device-width, initial-scale=1")
-  body
-    main
-      block header
-        header.header
-          h1 #{title}
-      block content
+    script(src='https://code.jquery.com/jquery-2.1.3.min.js')
+    block scripts
+        script(src='/scripts/animations.js')
+body
+    div.defaultheader
+        div.contenttitle
+            | #{title}
+        div.nav
+            ul
+                button
+                    img(src="/images/menu.png" alt="Menu" id="menupicture")
+                li
+                    a(href="/")
+                        | About Me
+                li
+                    a(href="/timeline")
+                        | My Timeline
+                li
+                    a(href="/projects")
+                        | My Projects
+                li
+                    a(href="/contact")
+                        | Contact Me
+                li
+                    div.resume
+                        a(href="/resume" class="resumebutton")
+                            | Resume
+block content

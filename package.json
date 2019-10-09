@@ -1,12 +1,13 @@
 {
-  "name": "brian-hiroskys-resume",
-  "version": "1.0.0",
-  "description": "Interactive Resume built on node.js",
-  "author": "Brian Hirosky <brian@hirosky.com>",
+  "name": "simple-node-website",
+  "version": "0.1.0",
+  "description": "A simple website built with Node, Express and Pug",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "npx nodemon server.js"
   },
+  "author": "Ayo Isaiah",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
     "pug": "^2.0.3"
