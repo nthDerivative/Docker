@@ -53,8 +53,13 @@
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir>/mnt/user/Documents/Resume/</HostDir>
-      <ContainerDir>/usr/src/app/</ContainerDir>
+      <HostDir>/mnt/user/Documents/Resume/json</HostDir>
+      <ContainerDir>/usr/src/app/json</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/Documents/Resume/public</HostDir>
+      <ContainerDir>/usr/src/app/public</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
