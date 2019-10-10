@@ -1,8 +1,8 @@
 {
   "profiles": [
     {
-      "title": "Dynamic Resume",
-      "summary": "A node.js application using Express and Pug as the view engine.",
+      "title": "Dynamic Resume 3",
+      "summary": "A node.js application using Express and Pug as the view engine. 33",
       "github": "https://github.com/nthDerivative/docker",
       "imgSrc": "project1.jpg",
       "id": "p1"
