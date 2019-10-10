@@ -1,5 +1,22 @@
 ﻿const express = require("express");
-const projectdata = require("./json/projects.json");
+const fs = require('fs')
+
+function jsonReader(filePath, cb) {
+    fs.readFile(filePath, (err, fileData) => {
+        if (err) {
+            return cb && cb(err)
+        }
+        try {
+            const object = JSON.parse(fileData)
+            return cb && cb(null, object)
+        } catch (err) {
+            return cb && cb(err)
+        }
+    })
+}
+ 
+const jsonprojectdata = fs.readFileSync('./json/projects.json');
+const projectdata = JSON.parse(jsonprojectdata);
 const jobdata = require("./json/experience.json");
 const hardskills = require("./json/hardskills.json"); 
 const app = express();
