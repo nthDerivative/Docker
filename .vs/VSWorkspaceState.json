@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\json",
-    "\\public",
-    "\\public\\css",
-    "\\public\\images",
-    "\\views"
+    "\\Resume"
   ],
-  "SelectedNode": "\\views\\projects.pug",
+  "SelectedNode": "\\Resume\\json (2)",
   "PreviewInSolutionExplorer": false
 }

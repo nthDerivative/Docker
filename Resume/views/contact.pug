@@ -1,0 +1,15 @@
+extends default
+
+block content
+    div.contactme
+        form(action='/send_message', method='POST')
+            div.contacttitle
+                input(type='text', name='name', id='text', placeholder='Name')
+            div.contactcompany
+                input(type='text', name='company', id='text', placeholder='Company')
+            div.contactemail
+                input(type='text', name='email', id='text',  placeholder='Your email')
+            div.contactmessage
+                input(type='textarea', name='message', id='text', placeholder='Your Message')
+            input(type='submit', value='Submit')
+

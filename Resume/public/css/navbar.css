@@ -52,7 +52,13 @@ html {
     text-decoration: none;
     color: white;
     font-size: 18px;
-    
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-color: #EAC67A
+}
+
+.nav a:hover {
+
 }
 
 .resume {

@@ -13,12 +13,12 @@ html {
 
 body {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; /* [2] */
+    font-family: 'Josefin Sans', sans-serif;
     background-image: linear-gradient(45deg, rgba(35, 50, 55, 1) 10%, rgba(24, 18, 30, 1) 100%);
     background-position: top left;
     background-size: contain;
     background-attachment: fixed;
     /* background-color: #18121E;*/
-    font-family: 'Josefin Sans', sans-serif;
     color: #b8b8b8;
     width: 100%;
     height: 100%;
@@ -433,3 +433,76 @@ name {
         color: #E8E8E8E8;
         width: 100%;
     }
+
+/* Contact Section */
+
+.contactme {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contactme div {
+    margin-top: 20px;
+}
+
+input[type=text] {
+    border: 1px solid #EAC67A;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    font-size: 20px;
+    background: lightgrey;
+    padding: 5px;
+    height: 100%;
+    text-align: left;
+    line-height: 40px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; /* [2] */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=textarea] {
+    width: 600px;
+    height: 120px;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 70%;
+    border: 1px solid #EAC67A;
+    font-size: 20px;
+    background: lightgrey;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; /* [2] */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+input[type=submit] {
+    margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    float: right;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    background-color: #984B43;
+    text-align: center;
+    color: #E8E8E8;
+    width: 150px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif; /* [2] */
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.div .text {
+    width: 100%;
+}
+
+input[type=text]:hover {
+    border: 1px solid aqua;
+}
+
+input[type=textarea]:hover {
+    border: 1px solid aqua;
+}
+
+input[type=submit]:hover {
+    border: 1px solid aqua;
+}

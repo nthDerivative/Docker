@@ -12,10 +12,30 @@
             $("button img").attr("src", "/images/close.png");
         } else {
             $("li").slideToggle("slow");
-            $("button img").attr("src", "/images/menu.png");           
+            $("button img").attr("src", "/images/menu.png");
         }
-        
+
     });
+
+    $('a').mouseover(function () {
+        var $containerWidth = $(window).width();
+        if ($containerWidth > 800) {
+            $(this).animate({
+                borderBottomColor: '#8f8f8f',
+                borderBottomWidth: '1px',
+                paddingBottom: "3px",
+            }, 100);
+        }
+    }); 
+
+    $('a').mouseout(function () {
+        $(this).animate({
+            borderBottomColor: '#8f8f8f',
+            borderBottomWidth: '0px',
+            paddingBottom: "0px",
+        }, 100);
+    }); 
+
 
     $(window).resize(function () {
         var $containerWidth = $(window).width();
