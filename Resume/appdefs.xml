@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <TemplateURL>https://raw.githubusercontent.com/nthderivative/docker/master/appdefs.xml</TemplateURL>
+  <TemplateURL>https://github.com/nthDerivative/docker/tree/master/Resume/appdefs.xml</TemplateURL>
   <Beta>False</Beta>
   <Category>Productivity: Tools:</Category>
   <Name>resume</Name>
@@ -12,7 +12,7 @@
   </Overview>
   <Support></Support>
   <Registry>https://hub.docker.com/r/nthderivative/docker</Registry>
-  <GitHub>https://github.com/nthderivative/docker/tree/master/</GitHub>
+  <GitHub>https://github.com/nthDerivative/docker/tree/master/Resume</GitHub>
   <Repository>nthderivative/docker</Repository>
   <Project>https://hirosky.com</Project>
   <BindTime>true</BindTime>

@@ -34,6 +34,9 @@
     <Content Include="appdefs.xml" />
     <Content Include="Dockerfile" />
     <Content Include="package-lock.json" />
+    <Content Include="public\css\navbar.css" />
+    <Content Include="public\css\style.css" />
+    <Content Include="public\scripts\animations.js" />
     <Content Include="Python-Dockerfile.txt" />
     <Content Include="requirements.txt" />
     <Content Include="server.js" />
@@ -51,6 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="json\" />
+    <Folder Include="public\" />
+    <Folder Include="public\css\" />
+    <Folder Include="public\images\" />
+    <Folder Include="public\scripts\" />
     <Folder Include="views\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
