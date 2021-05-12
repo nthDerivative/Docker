@@ -12,7 +12,7 @@
     "body-parser": "^1.17.2",
     "ejs": "^2.7.1",
     "express": "^4.17.1",
-    "nodemailer": "^4.7.0",
+    "nodemailer": "^6.4.16",
     "pug": "^2.0.4"
   },
   "devDependencies": {
